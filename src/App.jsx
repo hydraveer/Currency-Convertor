@@ -57,9 +57,9 @@ function App() {
                             swap
                         </button>
                     </div>
-                    <div className="w-full mt-1 mb-4">
+                    <div className="w-full mt-1 mb-4 text-black">
                         <InputBox
-                            label="to"
+                            label="To"
                             amount={converted}
                             currencyOption={options}
                             onCurrencyChange={(currency)=>{
